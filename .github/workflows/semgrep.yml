@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: gradlelockfile
-          path: /Users/michael.bali/project/gradle-test/settings-gradle.lockfile
+          path: settings-gradle.lockfile
 
   semgrep:
     needs: buildGradleLockFile
